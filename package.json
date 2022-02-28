@@ -1,0 +1,25 @@
+{
+  "name": "capture-meta-from-url",
+  "version": "1.0.0",
+  "description": "Capture meta information from a website url. You must have seen it on social media. As soon as you paste a link in the box it loads data from that site and makes beautiful looking sharable card.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhaspider/capture-meta-from-url.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhaspider/capture-meta-from-url/issues"
+  },
+  "homepage": "https://github.com/jhaspider/capture-meta-from-url#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
