@@ -1,4 +1,4 @@
-const router = require("express").Router(); // eslint-disable-line
+const router = require("express").Router();
 const axios = require("axios");
 
 function getMetaData(element, attr) {
