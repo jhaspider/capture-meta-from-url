@@ -1,8 +1,13 @@
 # capture-meta-from-url
 
-Capture meta information from a website url. You must have seen it on social media. As soon as you paste a link in the box it loads data from that site and makes beautiful looking sharable card.
+Capture/Scrap meta information from a website url. 
+<br>
+You must have seen it on social media as soon as you paste a link in the textbox, it scraps data from that website and makes a sharable card on the fly.
+<br>
+<br>
+<br>
 
-## Backend
+## Backend ( NodeJS In this example )
 
 It is advised to write that logic in backend. If you make a call from front end it will run into CORS error.
 
@@ -10,7 +15,7 @@ Server is written in NodeJs in this example
 
 ## Frontend
 
-Front is showing basic Axios call to load the data.
+Front-end is showing basic Axios call to load the data.
 
 Alternatively, if you can make a CURL request to check it.
 
@@ -19,6 +24,6 @@ curl -X POST localhost:8080/meta/content -H "Content-Type: application/json" -d 
 
 ```
 
-Its bare minimum example. So does not leverage webpack / nodemon etc for recompile upon changes.
+<br><br><br>
 
-Last but the least another big take away is the regular expression used to read the meta data.
+Last but not the least - You would need to write regular expression to read a <meta> information.
